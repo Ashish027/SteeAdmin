@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Create Event"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eteventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="Event name"
+            android:inputType="textPersonName"
+            android:textColorHint="#9A000000" />
+
+        <EditText
+            android:id="@+id/etdecrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Description of event"
+            android:inputType="textMultiLine"
+            android:textColor="#000"
+            android:textColorHint="#9A000000" />
+
+
+        <EditText
+            android:id="@+id/etdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Date"
+            android:textColor="#000"
+            android:inputType="date"
+            android:textColorHint="#9A000000" />
+
+        <EditText
+
+            android:id="@+id/ettime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Time"
+            android:textColor="#000"
+            android:inputType="time"
+            android:textColorHint="#9A000000" />
+
+
+        <Button
+            android:id="@+id/btnevent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Submit"
+            android:background="@drawable/buttonround"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
